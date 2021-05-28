@@ -9,7 +9,7 @@ import java.io.IOException;
 public class TransferSerivceImpl implements TransferSerivce {
     @Override
     public Boolean doTransfer(String url) {
-         url = "www.baidu.com";
+//         url = "www.baidu.com";
         ProcessBuilder builder = new ProcessBuilder(
                 "c:\\Program Files\\Internet Explorer\\iexplore", url);
         try {
